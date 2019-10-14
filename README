@@ -1,1 +1,37 @@
-This is a repo for our CS 411 software engineering project -- testing
+PROJECT REPORT
+
+Project Name: 		Project Name
+From: 			Team Name   (Yahia Bakour, Michael Hendrick, Theresa Mcneil,
+Zhipeng (Eric) Wang)
+Date: 			Mar 27, 2019
+Target Region: 	USA
+Sector: 		Traveling
+ 
+PROJECT OVERVIEW
+Easier and more convenient travel style is a trending type of travel by differing individuals with differing request. Acquiring knowledge of city information including for weather, entertainment, attraction and culture while traveling becomes more and more important by the day. Our project is complemented by python with Flask interface and API. It provides customers various information and recommendation sub-list about their travel destination.
+
+
+PROJECT KEY FUNCTIONALITIES & PROPOSED ENTITIES
+➢ User
+Register & Log in: Customers need to register and log in with correct username and password.
+Searching: Enable customers to search their destination by entering key words based on their needs. 
+Showing Result: After customers click place they are interested in, a recommendation sub-list of events within the area will show up based on their preferences.
+➢ Admin
+Website Maintenance: Supervising suspicious account activities, admin can add and delete accounts. 
+Handle Emergent Problem: Admin should handle emergency and solve problem.
+
+
+PROJECT ADDITIONAL FEATURES
+•	Flask:
+We use Flask interface which depends on the external libraries and implements a WSGI application. It resolves resources from inside the package.
+•	request (Keeping track of the request-level data during a request rather than 
+  passing the request object to each function.)
+•	jsonify (Returning a JSON-encodable representation of an object by identifying 
+ request parameter.)
+•	render_template (Looking for a matching file in templates folder to render, and 
+     passes the data along.)
+•	API:
+•	Google_Places_Api (Looking up an address with reverse geocoding and requesting directions via public transit.)
+•	Weather_Api (Getting current weather information by location information.)
+•	json (Encoder and decoder)
+•	pymongo (A Python distribution containing tools for working with MongoDB.)
